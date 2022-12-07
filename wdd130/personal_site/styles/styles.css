@@ -13,7 +13,7 @@
     /* these colors below should be chosen from among your palette colors above */
     --headline-color-on-white: #92BCEA;  /* headlines on a white background */ 
   --headline-color-on-color: #2D1E2F; /* headlines on a colored background */ 
-  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #2D1E2F; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #92BCEA;
   --nav-link-color: #92BCEA;
@@ -26,7 +26,7 @@
     margin: 0 auto;
 }
 #background {
-    background-color: whitesmoke;
+    background-color: #E3170A;
 }  
 nav {
     padding-top: 50px;
@@ -40,7 +40,7 @@ nav {
     z-index: -1;
 }
 nav a:hover {
-    background-color:#c0a742;
+    background-color: #92BCEA;
     color: white;
 }
 header {
@@ -180,7 +180,7 @@ footer .social img {
     padding-top: 15px;
 }
 .msg h2 {
-    color: #c0a742;
+    color: #EE85B5;
     text-align: center;
 }
 h2, h3 {
@@ -193,7 +193,7 @@ h2, h3 {
     margin-top: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #437291;
+    background-color: #f55e65;
     opacity: 0.7;
     border-radius: 20%;
 }
@@ -257,7 +257,7 @@ h2, h3 {
     padding-top: 50px;
 }
 #display {
-    background-color: whitesmoke;
+    background-color: #c2e0f6;
 }
 .image2 {
     grid-column: 1/2;
@@ -290,7 +290,7 @@ h2, h3 {
 .main1 {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    background-color: whitesmoke;
+    background-color: #c2e0f6;
 }
 .carnival {
     padding-right: 0px;
@@ -341,7 +341,7 @@ h2, h3 {
     
     }
     footer a {
-        color: black;
+        color: #2D1E2F;
         font-size: 40px;
     }
     footer {
