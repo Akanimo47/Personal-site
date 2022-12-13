@@ -11,7 +11,7 @@
   --paragraph-font: "Cormorant Garamond", Helvetica, sans-serif;
   
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #92BCEA;  /* headlines on a white background */ 
+    --headline-color-on-white: #2D1E2F;  /* headlines on a white background */ 
   --headline-color-on-color: #2D1E2F; /* headlines on a colored background */ 
   --paragraph-color-on-white: #2D1E2F; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
@@ -41,10 +41,10 @@ nav {
 }
 nav a:hover {
     background-color: #92BCEA;
-    color: white;
+    color: black;
 }
 header {
-    background-color: #087E8B;
+    background-color: #E3170A;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -75,7 +75,7 @@ header {
     align-self: center;
 }
 nav a {
-    background-color: #087E8B;
+    background-color: #E3170A;
     color: #c2e0f6;
     text-decoration: none;
     text-align: center;
@@ -154,7 +154,7 @@ p {
     z-index: -1;
 }
 footer {
-    background-color: #087E8B;
+    background-color: #E3170A;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
@@ -180,7 +180,7 @@ footer .social img {
     padding-top: 15px;
 }
 .msg h2 {
-    color: #EE85B5;
+    color: #2D1E2F;
     text-align: center;
 }
 h2, h3 {
@@ -293,8 +293,14 @@ h2, h3 {
     background-color: #c2e0f6;
 }
 .carnival {
-    padding-right: 0px;
+    padding-left: 150px;
 
+}
+.word {
+    padding-left: 250px;
+}
+.pic {
+    padding-top: 200px;
 }
 .home-grid2 {
     padding-top: 600px;
